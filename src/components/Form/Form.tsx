@@ -1,6 +1,6 @@
 const Form = (): JSX.Element => {
   return (
-    <form className="form" action="">
+    <form aria-label="Input a new to-do" className="form" action="">
       <label className="form__label" htmlFor="text">
         Add new task
       </label>
