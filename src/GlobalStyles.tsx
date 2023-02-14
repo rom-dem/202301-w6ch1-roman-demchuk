@@ -7,7 +7,14 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   padding: 50px;
+  background-color: rgb(138, 138, 138);
   
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul, li {
@@ -15,9 +22,10 @@ ul, li {
 }
 
 button {
-  background-color: lightblue;
+  background-color: transparent;
   border: none;
 }
+
 `;
 
 export default GlobalStyles;
