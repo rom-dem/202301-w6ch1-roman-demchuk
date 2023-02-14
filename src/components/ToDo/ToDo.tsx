@@ -4,6 +4,7 @@ const ToDo = (): JSX.Element => {
       <button className="todo__button--done">✔️</button>
       <button className="todo__button--not-done">❌</button>
       <span className="todo__text">Example To-do</span>
+      <button>Delete</button>
     </li>
   );
 };
