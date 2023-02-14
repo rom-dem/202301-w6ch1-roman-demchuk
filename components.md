@@ -55,6 +55,6 @@
 ## Form Component
 
 - Receives the add task action
-- Shows an input for the task name with the label "Task name"
+- Shows an input for the task name with the label "Add new task"
 - Shows a button "Add" to submit the form
 - On submit executes the received add task action
